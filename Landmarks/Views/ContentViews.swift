@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  ContentView.swift
 //  Landmarks
 //
 //  Created by Baris on 28.07.2023.
@@ -7,14 +7,16 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+
+struct ContentViews: View {
     var body: some View {
         LandmarkList()
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct ContentViews_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        ContentViews()
     }
 }
+
